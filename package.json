@@ -8,8 +8,10 @@
     "mysql2": "^3.11.2",
     "nodejs": "^0.0.0"
   }
-}
-
-"scripts": {
+  
+  "scripts": {
   "start": "node index.js"
 }
+}
+
+
