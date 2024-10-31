@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 //Lookup customer
 app.get('/lookup-phone', (req, res) => {
         res.send({
-        "message": "<h1>Welcome to Coco Developer Console!</h1>"
+        "message": "<h1>Customer Phone Number not found!</h1>"
       }); 
 });
 
