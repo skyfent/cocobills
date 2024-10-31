@@ -6,7 +6,7 @@ const port = 6799;
 //Welcome endpoint
 app.get('/', (req, res) => {
         res.send({
-        "message": "<h1>Welcome to Coco Developer Console!</h1>"
+        "message": "Welcome to Coco Developer Console!"
       }); 
 });
 
@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 //Lookup customer
 app.get('/lookup-phone', (req, res) => {
         res.send({
-        "message": "<h1>Customer Phone Number not found!</h1>"
+        "message": "Customer Phone Number not found!"
       }); 
 });
 
@@ -23,7 +23,7 @@ app.get('/lookup-phone', (req, res) => {
 //Register Customer endpoint
 app.get('/register', (req, res) => {
         res.send({
-        "message": "<h1>Registration was successful!</h1>"
+        "message": "Registration was successful!"
       }); 
 });
 
@@ -31,7 +31,7 @@ app.get('/register', (req, res) => {
 //Login Customer endpoint
 app.get('/sign-in', (req, res) => {
         res.send({
-        "message": "<h1>Login Successful!</h1>"
+        "message": "Login Successful!"
       }); 
 });
 
