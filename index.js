@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const HostName = "http://localhost:3000"
 const port = 9000;
 
-// Enable CORS for requests from http://localhost:3001
+// Enable CORS for requests from http://localhost:6799
 const cors = require('cors');
 app.use(cors({
   origin: HostName
